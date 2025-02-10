@@ -1,0 +1,33 @@
+/skill-scheduler-ai
+│── /client  (React Native App)
+│   ├── /src
+│   │   ├── /components   # Reusable UI components
+│   │   ├── /screens      # Main screens (Home, Learn, Schedule)
+│   │   ├── /services     # API calls to backend
+│   │   ├── /utils        # Helper functions
+│   │   ├── /context      # Global state (if using React Context)
+│   │   ├── App.tsx       # Main entry point
+│   │   ├── index.js      # Root file
+│   ├── package.json      # React Native dependencies
+│   ├── metro.config.js   # React Native config
+│   ├── tsconfig.json     # TypeScript config
+│
+│── /server  (Node.js + Express Backend)
+│   ├── /src
+│   │   ├── /routes       # API routes (schedules, resources, feedback)
+│   │   ├── /controllers  # Business logic
+│   │   ├── /models       # Database schemas
+│   │   ├── /services     # External API integrations (YouTube, Wikipedia)
+│   │   ├── app.js        # Express app setup
+│   │   ├── server.js     # Server entry point
+│   ├── package.json      # Node.js dependencies
+│   ├── .env              # API keys and secrets
+│   ├── tsconfig.json     # TypeScript config (if using TS)
+│
+│── /firebase  (Firebase Functions & Firestore)
+│   ├── index.js          # Cloud functions entry
+│   ├── firestore.rules   # Firestore security rules
+│
+│── .gitignore
+│── README.md
+
