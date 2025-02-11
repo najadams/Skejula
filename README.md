@@ -39,19 +39,19 @@ Make sure you have the following installed:
 ### **2️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/your-username/ai-scheduling-assistant.git
-cd ai-scheduling-assistant
+cd skejula
 ```
 
 ### **3️⃣ Install Dependencies**
 #### **Frontend (React Native)**
 ```sh
-cd mobile-app
+cd client
 npm install
 expo start
 ```
 #### **Backend (Node.js + Express)**
 ```sh
-cd backend
+cd server
 npm install
 npm start
 ```
@@ -97,4 +97,3 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/api/rest_v1/
 
 ## 📝 License
 This project is licensed under the **MIT License**.
-
